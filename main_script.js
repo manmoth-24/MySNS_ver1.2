@@ -1,3 +1,4 @@
+var fs = require('fs');
 window.addEventListener("load", ()=>{
     fetch("data.json")
 
