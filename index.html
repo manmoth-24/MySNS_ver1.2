@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MySNS</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 class="site-title">MySNS</h1>
+        <hr>
+        <table class="main-table">
+            <thead>
+                <tr>
+                    <th class="name-line">name</th>
+                    <th class="title-line">title</th>
+                    <th class="contents-line">contents</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <hr>
+        <section class="add-new-content">
+            <h3>追加</h3>
+            <p>名前</p>
+            <input type="text" id="input-name">
+            <p>タイトル</p>
+            <input type="text" id="input-title">
+            <p>コンテンツ</p>
+            <textarea id="input-contents"></textarea>
+            <p>画像</p>
+            <textarea id="input-image"></textarea>
+            <input type="button" value="追加" id="add-button" onclick="AddNewContent()">
+        </section>
+        <script src="main_script.js"></script>
+    </body>
+</html>

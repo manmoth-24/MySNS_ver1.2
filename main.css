@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: beige;
+}
+.site-title{
+    padding: 20px;
+    height: 20px;
+    text-shadow: 3px 3px 2px gray;
+}
+table{
+    width: 90%;
+    margin: 0 auto 50px auto;
+    border: 2px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+th{
+    background-color: rgb(71, 133, 69);
+    color: white;
+    padding: 10px 0px;
+}
+td{
+    background-color: rgb(197, 212, 196);
+    padding: 30px;
+}
+.name-line{
+    width: 20%;
+}
+.title-line{
+    width: 30%;
+}
+.contents-line{
+    width: 50%;
+}
+.add-new-content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+#add-button{
+    margin: 40px auto;
+    text-align: center;
+}
