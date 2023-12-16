@@ -32,9 +32,12 @@ const AddNewContent = ()=>{
    
     addContent = {"name": name, "title": title, "content": content}
 
-    fetch("data.json")
+    json = fs.readFileSync('data.json', 'utf-8');
+    json.array.push(JSON.parse(json + addContent))
+    /*fetch("data.json")
         .then((resp) => resp.json())
         .then((json) => {
-            json.push(addContent)
-        })
+            json2 = fs.readFileSync('data.json', 'utf-8');
+            json.array.push(JSON.parse(json + addContent))
+        })*/
 }
